@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+  rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/Study.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/projects.css" />
+  <link rel="stylesheet" href="./static/css/bootstrap/bootstrap.min.css" />
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css"
+      integrity="sha512-glciccPoOqr5mfDGmlJ3bpbvomZmFK+5dRARpt62nZnlKwaYZSfFpFIgUoD8ujqBw4TmPa/F3TX28OctJzoLfg=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./static/css/app.css" />
+  <script src="https://kit.fontawesome.com/55759c26a3.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Portifolio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">About me</a></li>
+      <li><a href="#study" onclick="toggleMenu();">Skills</a></li>
+      <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contact me</a></li>
+    </ul>
+  </header>
+  <section class="banner" id="home">
+    <div class="textBx">
+      <h2><span>Ishika Kesarwani</span></h2>
+      <h3>Developer.</h3>
+      <a href="#about" class="btn">About Me</a>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="heading">
+      <h2>About me</h2>
+    </div>
+    <div class="content">
+      <div class="conetntBx w50">
+        <h3>I'm a Developer.</h3>
+        <p>
+          🌀Self-taught Web Dev ⚡ Pursuing degree in Computer Science 📸
+          Photographer .
+        </p>
+        <br />
+
+        <p>
+          I love programming and making random web-based applications for fun.
+          I am a future full-stack developer, currently I'm focusing on the
+          backend.
+        </p>
+        <br /><br />
+        <h3>My Interests</h3>
+        <p>
+          Apart from this, i have got a tons of interests! <br /><br />
+          I love reading books 📖<br />
+          I am watching a movie or a series online; 📺<br />
+          I love skecthing/painting!; 🎮<br />
+          And I love talking to new people, and making friend!! 🙋‍♂️
+        </p>
+        <br />
+      </div>
+      <div aling="right" class="w50">
+        <img src="IMG/ishika.jpeg" class="img-responsive imgIM" />
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  
+  <section class="services" id="study">
+    <div class="heading white">
+      <h2>Skills</h2>
+    </div>
+    <div class="content">
+      <div class="servicesBx">
+        <i class="fab fa-html5 icon"></i>
+      </div>
+
+      <div class="servicesBx">
+        <i class="fab fa-css3-alt icon"></i> 
+      </div>
+
+      <div class="servicesBx">
+        <i class="fab fa-js icon"></i>  
+      </div>
+      <div class="servicesBx">
+        <i class="fab fa-bootstrap icon"></i> 
+     </div>
+     <div class="servicesBx">
+      <i class="fab fa-node-js icon"></i>
+    </div>
+    <div class="servicesBx">
+      <i class="fab fa-react icon"></i>
+    </div>
+    <div class="servicesBx">
+      <img src="IMG/mysql.png" style="height: 40px; width:45px;"> 
+   </div>
+    <div class="servicesBx">
+      <i class="fab fa-python icon"></i>  
+    </div>
+    <div class="servicesBx">
+      <img src="IMG/xd.png" style="height: 45px; width:45px;"> 
+   </div>
+    </div>
+ 
+  </section>
+
+
+
+
+
+
+<section class="work" >
+  <div class="heading">
+    <div class="card">
+      <div class="card-block">
+        <h2>Projects</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="IMG/5.png" class="img-responsive img-thumbnail" alt="">
+            <h3 class="h5">NewLetter</h3>
+            <p>A newletter website using NodeJS, Express, Mailchimp API and deployed by using heroku 🎊</p>
+          </div><br><br><br><br>
+          <div class="col-md-4">
+            <img src="IMG/1.png" class="img-responsive  img-thumbnail" alt="">
+            <h3 class="h5">Xypo</h3>
+            <p>A responsive, mobile friendly website, made by using HTML, CSS and JS from <strong>scratch</strong></p>
+          </div><br><br><br><br>
+          <div class="col-md-4">
+            <img src="IMG/2.png" class="img-responsive  img-thumbnail" alt="">
+            <h3 class="h5">Fellowship website</h3>
+            <p>A responsive, mobile friendly website, made by using HTML, CSS ,boostrap and JS from </p>
+          </div><br><br><br><br>
+          <div class="col-md-4">
+            <img src="IMG/3.png" class="img-responsive  img-thumbnail" alt="">
+            <h3 class="h5">Creative interactive website</h3>
+            <p>Minimalist creative JS website, made from scratch</p><br><br><br><br>
+          </div>
+          <div class="col-md-4">
+            <img src="IMG/4.png" class="img-responsive  img-thumbnail" alt="">
+            <h3 class="h5">Mini JS projects</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  
+  </section>
+  
+
+
+  <section class="contact" id="contact">
+    <div class="heading white">
+      <h2>Want to connect?!</h2>
+    </div>
+    <div class="content">
+      <div class="contactInfo">
+          <h3>Contact</h3>
+
+
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3 >Address</h3>
+                <p>Gurgaon<br>Haryana<br>India</p>
+              </div>
+             </div>
+
+            <div class="box">
+             <div class="icon"><a href="https://api.whatsapp.com/send?phone=5561994421470"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></i></div>
+           <div class="text">
+                <h3>Phone</h3></a>
+                <p>9911384200 </p> 
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon"><a href="mailto:ishikakesarwani2000@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>ishikakesarwani2000@gmail.com</p>
+              </div>
+            </div>
+          
+            <div class="box">
+              <div class="icon"><a href="https://www.linkedin.com/in/ishika-kesarwani-3b32811a6/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+              <div class="text">
+                <h3>LinkedIn</h3>
+                <p>Ishika Kesarwani</p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon"><a href="hhttps://github.com/ishikkkkaaaa"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+              <div class="text">
+                <h3>GitHub</h3>
+                <p>ishikkkkaaaa</p>
+              </div>
+            </div>
+
+          </div>   
+      </div>
+      <div class="formBx">
+        <form>
+          <h3>Message Me</h3>
+          <input type="text" name="" placeholder="Full Name">
+          <input type="email" name="" placeholder="Email">
+          <textarea placeholder="Your Message"></textarea>
+          <input type="submit" value="Send" name="">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+    function toggleMenu(){
+      var menuToggle = document.querySelector('.toggle');
+      var menu = document.querySelector('.menu');
+      menuToggle.classList.toggle('active');
+      menu.classList.toggle('active');
+    }
+  </script>
+  <script src="JS/scroll.js"></script>
+</body>
+</html>

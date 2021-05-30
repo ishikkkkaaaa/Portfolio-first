@@ -1,0 +1,34 @@
+.fab.fa-github{
+  font-size: 3em;
+  color: aliceblue;
+
+
+}
+
+
+.services .content .servicesBx
+{
+  padding: 20px 20px;
+  background: #491734;
+  color: #fff;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+.services .content .servicesBx:hover
+{
+  background: rgba(255,0,0,0.1);;
+}
+.services .content .servicesBx img
+{
+  max-width: 80px;
+}
+.services .content .servicesBx h2
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+.icon .fa{
+color: #fff;
+}
