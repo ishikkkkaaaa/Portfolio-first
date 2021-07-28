@@ -32,3 +32,9 @@
 .icon .fa{
 color: #fff;
 }
+
+/* style for links (socials) */
+.contactInfo a
+{
+  text-decoration: none
+}
