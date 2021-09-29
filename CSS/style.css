@@ -16,8 +16,19 @@
 
 .icon {
   font-size: 40px;
-  color: white;
+   color: white;
+   text-shadow: 0 0 5px ;
+  transition: 1s ;
+   
+   
 }
+.icon:hover{
+
+  text-shadow: 0 0 30px  #00bcd4;
+  transition: 1s ;
+
+}
+
 
 header {
   position: fixed;
@@ -93,6 +104,16 @@ section {
   font-size: 1.5em;
   font-weight: 500;
 }
+
+/* start */
+#typing{
+  background: #491734  ;
+  text-shadow: 0 0 30px  #bee5eb;
+  transition: 2s linear ;
+  animation: typing 10s steps(2) linear ;
+}
+
+/* end */
 .btn {
   position: relative;
   background: #d499a9;
@@ -124,6 +145,17 @@ section {
 }
 .heading.white {
   color: #fff;
+}
+.heading.white :hover {
+  background:#3a0925 ;
+  box-shadow: 0 0 30px  #491734;
+  transition: 1s ;
+
+}
+#SkillEffect:hover{
+  background: #491734  ;
+  text-shadow: 0 0 30px  #00bcd4;
+  transition: 1s ;
 }
 .conetntBx {
   padding-right: 30px;
@@ -354,6 +386,8 @@ img {
   .services .content .servicesBx {
     margin: 10px;
   }
+
+  
   .work .content .workBx {
     width: 100%;
     padding: 10px;
